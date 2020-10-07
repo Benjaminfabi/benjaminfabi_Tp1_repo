@@ -1,0 +1,9 @@
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\bin\Debug\net5.0\LeBataillon.Database.deps.json
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\bin\Debug\net5.0\LeBataillon.Database.dll
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\bin\Debug\net5.0\LeBataillon.Database.pdb
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.csprojAssemblyReference.cache
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.AssemblyInfoInputs.cache
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.AssemblyInfo.cs
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.csproj.CoreCompileInputs.cache
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.dll
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Database\obj\Debug\net5.0\LeBataillon.Database.pdb
