@@ -424,3 +424,6 @@ C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\obj\Debug\netcoreapp5.0\
 C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\obj\Debug\netcoreapp5.0\LeBataillon.Web.dll
 C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\obj\Debug\netcoreapp5.0\LeBataillon.Web.pdb
 C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\obj\Debug\netcoreapp5.0\LeBataillon.Web.genruntimeconfig.cache
+c:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\obj\Debug\netcoreapp5.0\Razor\Views\Shared\_topNav.cshtml.g.cs
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\bin\Debug\netcoreapp5.0\Castle.Core.dll
+C:\3w6\benjaminfabi_Tp1_repo\TP1_Depart\LeBataillon.Web\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Proxies.dll

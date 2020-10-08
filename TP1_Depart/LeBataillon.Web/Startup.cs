@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +24,8 @@ namespace LeBataillon.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<Database.Context.LeBataillonDbContext>(options => { options.UseSqlServer(Configuration.GetConnectionString("LeBataillonDbContext")); });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
