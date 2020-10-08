@@ -9,6 +9,10 @@ namespace LeBataillon.Database.Context
 {
     public class LeBataillonDbContext : DbContext
     {
+        public LeBataillonDbContext(DbContextOptions<LeBataillonDbContext> options) : base(options)
+        {
+
+        }
         DbSet<Player> Players { get; set; }
         DbSet<Team> Teams { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -29,12 +29,12 @@ namespace LeBataillon.Database.Models
 
         }
         [Key]
-        [Required]
+
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "A team name is required.")]
         public string TeamName { get; set; }
-        [MaxLength(1)]
-        [Required]
+
+        [Required(ErrorMessage = "A team captain is required.")]
         public Player Captain { get; set; }
 
         public virtual List<Player> ListPlayers { get; set; }

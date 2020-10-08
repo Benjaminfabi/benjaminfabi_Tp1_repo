@@ -40,16 +40,19 @@ namespace LeBataillon.Database.Models
         [Key]
         [Required]
         public int Id { get; set; }
+
         public string NickName { get; set; }
-        [EmailAddress]
+        [EmailAddress(ErrorMessage = "The address is invalid. Try another.")]
         [Required]
+
         public string Email { get; set; }
-        [Phone]
+        [Phone(ErrorMessage = "Please use this format : ###:###:####")]
         public string PhoneNumber { get; set; }
-        [Required]
+        [Required(ErrorMessage = "A first name is required.")]
         public string FirstName { get; set; }
-        [Required]
+        [Required(ErrorMessage = "A last name is required.")]
         public string LastName { get; set; }
+
         public PlayerLevel Level { get; set; }
         public int TeamId { get; set; }
         public virtual Team Team { get; set; }
