@@ -40,9 +40,9 @@ namespace LeBataillon.Database.Context
 
             }
             //int Id, DateTime GameDateTime, int TeamDefendant, int TeamAttacker
-            Games.Add(new Game(1, new DateTime(220, 10, 24), 1, 3));
-            Games.Add(new Game(2, new DateTime(220, 10, 24), 4, 6));
-            Games.Add(new Game(3, new DateTime(220, 10, 24), 7, 2));
+            Games.Add(new Game(1, new DateTime(2020, 10, 24), 1, 3));
+            Games.Add(new Game(2, new DateTime(2020, 10, 24), 4, 6));
+            Games.Add(new Game(3, new DateTime(2020, 10, 24), 7, 2));
 
         }
     }

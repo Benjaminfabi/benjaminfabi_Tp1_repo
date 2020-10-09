@@ -12,9 +12,9 @@ namespace LeBataillon.Web.Controllers
 {
     public class TeamController : Controller
     {
-        private readonly MaisonReveDbContext _context;
+        private readonly LeBataillonDbContext _context;
 
-        public TeamController(MaisonReveDbContext context)
+        public TeamController(LeBataillonDbContext context)
         {
             _context = context;
         }
@@ -22,8 +22,8 @@ namespace LeBataillon.Web.Controllers
         // GET: Team
         public async Task<IActionResult> Index()
         {
-            var maisonReveDbContext = _context.Team.Include(t => t.Captain);
-            return View(await maisonReveDbContext.ToListAsync());
+            var leBataillonDbContext = _context.Teams.Include(t => t.Captain);
+            return View(await leBataillonDbContext.ToListAsync());
         }
 
         // GET: Team/Details/5
@@ -34,7 +34,7 @@ namespace LeBataillon.Web.Controllers
                 return NotFound();
             }
 
-            var team = await _context.Team
+            var team = await _context.Teams
                 .Include(t => t.Captain)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (team == null)
@@ -48,7 +48,7 @@ namespace LeBataillon.Web.Controllers
         // GET: Team/Create
         public IActionResult Create()
         {
-            ViewData["CaptainId"] = new SelectList(_context.Player, "Id", "Email");
+            ViewData["CaptainId"] = new SelectList(_context.Players, "Id", "Email");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace LeBataillon.Web.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CaptainId"] = new SelectList(_context.Player, "Id", "Email", team.CaptainId);
+            ViewData["CaptainId"] = new SelectList(_context.Players, "Id", "Email", team.CaptainId);
             return View(team);
         }
 
@@ -77,12 +77,12 @@ namespace LeBataillon.Web.Controllers
                 return NotFound();
             }
 
-            var team = await _context.Team.FindAsync(id);
+            var team = await _context.Teams.FindAsync(id);
             if (team == null)
             {
                 return NotFound();
             }
-            ViewData["CaptainId"] = new SelectList(_context.Player, "Id", "Email", team.CaptainId);
+            ViewData["CaptainId"] = new SelectList(_context.Players, "Id", "Email", team.CaptainId);
             return View(team);
         }
 
@@ -118,7 +118,7 @@ namespace LeBataillon.Web.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CaptainId"] = new SelectList(_context.Player, "Id", "Email", team.CaptainId);
+            ViewData["CaptainId"] = new SelectList(_context.Players, "Id", "Email", team.CaptainId);
             return View(team);
         }
 
@@ -130,7 +130,7 @@ namespace LeBataillon.Web.Controllers
                 return NotFound();
             }
 
-            var team = await _context.Team
+            var team = await _context.Teams
                 .Include(t => t.Captain)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (team == null)
@@ -146,15 +146,15 @@ namespace LeBataillon.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var team = await _context.Team.FindAsync(id);
-            _context.Team.Remove(team);
+            var team = await _context.Teams.FindAsync(id);
+            _context.Teams.Remove(team);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TeamExists(int id)
         {
-            return _context.Team.Any(e => e.Id == id);
+            return _context.Teams.Any(e => e.Id == id);
         }
     }
 }

@@ -42,6 +42,29 @@ namespace LeBataillon.Database.Migrations
                     b.HasIndex("TeamDefendantId");
 
                     b.ToTable("Games");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            GameDateTime = new DateTime(2020, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TeamAttackerId = 3,
+                            TeamDefendantId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            GameDateTime = new DateTime(2020, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TeamAttackerId = 6,
+                            TeamDefendantId = 4
+                        },
+                        new
+                        {
+                            Id = 3,
+                            GameDateTime = new DateTime(2020, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TeamAttackerId = 2,
+                            TeamDefendantId = 7
+                        });
                 });
 
             modelBuilder.Entity("LeBataillon.Database.Models.Player", b =>
@@ -85,991 +108,991 @@ namespace LeBataillon.Database.Migrations
                         new
                         {
                             Id = 1,
-                            Email = "Adrian@bataillonMail.com",
-                            FirstName = "Krissy",
+                            Email = "Angelina@bataillonMail.com",
+                            FirstName = "Angelina",
                             LastName = "Jonkruojis",
                             Level = 0,
-                            NickName = "AdrianAlias",
+                            NickName = "AngelinaAlias",
                             PhoneNumber = "214-764-3816"
                         },
                         new
                         {
                             Id = 2,
-                            Email = "Krissy@bataillonMail.com",
-                            FirstName = "Pat",
+                            Email = "Liliana@bataillonMail.com",
+                            FirstName = "Liliana",
                             LastName = "Reidcoln",
                             Level = 0,
-                            NickName = "KrissyAlias",
+                            NickName = "LilianaAlias",
                             PhoneNumber = "742-813-7421"
                         },
                         new
                         {
                             Id = 3,
-                            Email = "Pat@bataillonMail.com",
-                            FirstName = "Palmira",
+                            Email = "Sheryl@bataillonMail.com",
+                            FirstName = "Sheryl",
                             LastName = "Steinstrand",
                             Level = 0,
-                            NickName = "PatAlias",
+                            NickName = "SherylAlias",
                             PhoneNumber = "367-252-3834"
                         },
                         new
                         {
                             Id = 4,
-                            Email = "Palmira@bataillonMail.com",
-                            FirstName = "Ralph",
+                            Email = "Mariella@bataillonMail.com",
+                            FirstName = "Mariella",
                             LastName = "Nuugaatrapaluk",
                             Level = 0,
-                            NickName = "PalmiraAlias",
+                            NickName = "MariellaAlias",
                             PhoneNumber = "785-411-6446"
                         },
                         new
                         {
                             Id = 5,
-                            Email = "Ralph@bataillonMail.com",
-                            FirstName = "Arielle",
+                            Email = "Berniece@bataillonMail.com",
+                            FirstName = "Berniece",
                             LastName = "Vadtälje",
                             Level = 0,
-                            NickName = "RalphAlias",
+                            NickName = "BernieceAlias",
                             PhoneNumber = "333-648-2851"
                         },
                         new
                         {
                             Id = 6,
-                            Email = "Arielle@bataillonMail.com",
-                            FirstName = "Troy",
+                            Email = "Conrad@bataillonMail.com",
+                            FirstName = "Conrad",
                             LastName = "Eqalunavik",
                             Level = 0,
-                            NickName = "ArielleAlias",
+                            NickName = "ConradAlias",
                             PhoneNumber = "758-787-5464"
                         },
                         new
                         {
                             Id = 7,
-                            Email = "Troy@bataillonMail.com",
-                            FirstName = "Marcell",
+                            Email = "Sherlene@bataillonMail.com",
+                            FirstName = "Sherlene",
                             LastName = "Lystrup",
                             Level = 0,
-                            NickName = "TroyAlias",
+                            NickName = "SherleneAlias",
                             PhoneNumber = "476-136-1877"
                         },
                         new
                         {
                             Id = 8,
-                            Email = "Marcell@bataillonMail.com",
-                            FirstName = "Vi",
+                            Email = "Nicholas@bataillonMail.com",
+                            FirstName = "Nicholas",
                             LastName = "Ixtatla",
                             Level = 0,
-                            NickName = "MarcellAlias",
+                            NickName = "NicholasAlias",
                             PhoneNumber = "823-375-4482"
                         },
                         new
                         {
                             Id = 9,
-                            Email = "Vi@bataillonMail.com",
-                            FirstName = "Sherise",
+                            Email = "Tyson@bataillonMail.com",
+                            FirstName = "Tyson",
                             LastName = "Haapsa",
                             Level = 0,
-                            NickName = "ViAlias",
+                            NickName = "TysonAlias",
                             PhoneNumber = "441-434-8815"
                         },
                         new
                         {
                             Id = 10,
-                            Email = "Sherise@bataillonMail.com",
-                            FirstName = "Angelina",
+                            Email = "Derick@bataillonMail.com",
+                            FirstName = "Derick",
                             LastName = "Guasabaro",
                             Level = 0,
-                            NickName = "SheriseAlias",
+                            NickName = "DerickAlias",
                             PhoneNumber = "877-663-4428"
                         },
                         new
                         {
                             Id = 11,
-                            Email = "Angelina@bataillonMail.com",
-                            FirstName = "Liliana",
+                            Email = "Leida@bataillonMail.com",
+                            FirstName = "Leida",
                             LastName = "Kalatee",
                             Level = 0,
-                            NickName = "AngelinaAlias",
+                            NickName = "LeidaAlias",
                             PhoneNumber = "414-822-7833"
                         },
                         new
                         {
                             Id = 12,
-                            Email = "Liliana@bataillonMail.com",
-                            FirstName = "Sheryl",
+                            Email = "Debi@bataillonMail.com",
+                            FirstName = "Debi",
                             LastName = "Boswood",
                             Level = 0,
-                            NickName = "LilianaAlias",
+                            NickName = "DebiAlias",
                             PhoneNumber = "832-151-3446"
                         },
                         new
                         {
                             Id = 13,
-                            Email = "Sheryl@bataillonMail.com",
-                            FirstName = "Mariella",
+                            Email = "Ernestine@bataillonMail.com",
+                            FirstName = "Ernestine",
                             LastName = "Hókrókur",
                             Level = 0,
-                            NickName = "SherylAlias",
+                            NickName = "ErnestineAlias",
                             PhoneNumber = "567-318-6851"
                         },
                         new
                         {
                             Id = 14,
-                            Email = "Mariella@bataillonMail.com",
-                            FirstName = "Berniece",
+                            Email = "Adrian@bataillonMail.com",
+                            FirstName = "Adrian",
                             LastName = "Dragstrup",
                             Level = 0,
-                            NickName = "MariellaAlias",
+                            NickName = "AdrianAlias",
                             PhoneNumber = "185-557-2464"
                         },
                         new
                         {
                             Id = 15,
-                            Email = "Berniece@bataillonMail.com",
-                            FirstName = "Conrad",
+                            Email = "Eugenie@bataillonMail.com",
+                            FirstName = "Eugenie",
                             LastName = "Ketne",
                             Level = 0,
-                            NickName = "BernieceAlias",
+                            NickName = "EugenieAlias",
                             PhoneNumber = "523-786-6877"
                         },
                         new
                         {
                             Id = 16,
-                            Email = "Conrad@bataillonMail.com",
-                            FirstName = "Sherlene",
+                            Email = "Cathryn@bataillonMail.com",
+                            FirstName = "Cathryn",
                             LastName = "Kalvee",
                             Level = 0,
-                            NickName = "ConradAlias",
+                            NickName = "CathrynAlias",
                             PhoneNumber = "158-845-1482"
                         },
                         new
                         {
                             Id = 17,
-                            Email = "Sherlene@bataillonMail.com",
-                            FirstName = "Nicholas",
+                            Email = "Jamal@bataillonMail.com",
+                            FirstName = "Jamal",
                             LastName = "Kedainkai",
                             Level = 0,
-                            NickName = "SherleneAlias",
+                            NickName = "JamalAlias",
                             PhoneNumber = "576-284-5815"
                         },
                         new
                         {
                             Id = 18,
-                            Email = "Nicholas@bataillonMail.com",
-                            FirstName = "Tyson",
+                            Email = "Emely@bataillonMail.com",
+                            FirstName = "Emely",
                             LastName = "Rovanola",
                             Level = 0,
-                            NickName = "NicholasAlias",
+                            NickName = "EmelyAlias",
                             PhoneNumber = "213-433-8428"
                         },
                         new
                         {
                             Id = 19,
-                            Email = "Tyson@bataillonMail.com",
-                            FirstName = "Derick",
+                            Email = "Arielle@bataillonMail.com",
+                            FirstName = "Arielle",
                             LastName = "Brønnøyden",
                             Level = 0,
-                            NickName = "TysonAlias",
+                            NickName = "ArielleAlias",
                             PhoneNumber = "641-572-4833"
                         },
                         new
                         {
                             Id = 20,
-                            Email = "Derick@bataillonMail.com",
-                            FirstName = "Leida",
+                            Email = "Steven@bataillonMail.com",
+                            FirstName = "Steven",
                             LastName = "Ísafholt",
                             Level = 0,
-                            NickName = "DerickAlias",
+                            NickName = "StevenAlias",
                             PhoneNumber = "266-721-7446"
                         },
                         new
                         {
                             Id = 21,
-                            Email = "Leida@bataillonMail.com",
-                            FirstName = "Debi",
+                            Email = "Roma@bataillonMail.com",
+                            FirstName = "Roma",
                             LastName = "Hammervåg",
                             Level = 0,
-                            NickName = "LeidaAlias",
+                            NickName = "RomaAlias",
                             PhoneNumber = "684-168-3851"
                         },
                         new
                         {
                             Id = 22,
-                            Email = "Debi@bataillonMail.com",
-                            FirstName = "Ernestine",
+                            Email = "Simonne@bataillonMail.com",
+                            FirstName = "Simonne",
                             LastName = "Kulli",
                             Level = 0,
-                            NickName = "DebiAlias",
+                            NickName = "SimonneAlias",
                             PhoneNumber = "232-327-7464"
                         },
                         new
                         {
                             Id = 23,
-                            Email = "Ernestine@bataillonMail.com",
-                            FirstName = "Adrian",
+                            Email = "Jeanetta@bataillonMail.com",
+                            FirstName = "Jeanetta",
                             LastName = "Enbo",
                             Level = 0,
-                            NickName = "ErnestineAlias",
+                            NickName = "JeanettaAlias",
                             PhoneNumber = "657-456-2877"
                         },
                         new
                         {
                             Id = 24,
-                            Email = "Adrian@bataillonMail.com",
-                            FirstName = "Eugenie",
+                            Email = "Angelina@bataillonMail.com",
+                            FirstName = "Angelina",
                             LastName = "Lazmerge",
                             Level = 0,
-                            NickName = "AdrianAlias",
+                            NickName = "AngelinaAlias",
                             PhoneNumber = "375-615-6481"
                         },
                         new
                         {
                             Id = 25,
-                            Email = "Eugenie@bataillonMail.com",
-                            FirstName = "Cathryn",
+                            Email = "Magen@bataillonMail.com",
+                            FirstName = "Magen",
                             LastName = "Reidcoln",
                             Level = 0,
-                            NickName = "EugenieAlias",
+                            NickName = "MagenAlias",
                             PhoneNumber = "722-844-1814"
                         },
                         new
                         {
                             Id = 26,
-                            Email = "Cathryn@bataillonMail.com",
-                            FirstName = "Jamal",
+                            Email = "Jane@bataillonMail.com",
+                            FirstName = "Jane",
                             LastName = "Breksos",
                             Level = 0,
-                            NickName = "CathrynAlias",
+                            NickName = "JaneAlias",
                             PhoneNumber = "348-183-5427"
                         },
                         new
                         {
                             Id = 27,
-                            Email = "Jamal@bataillonMail.com",
-                            FirstName = "Emely",
+                            Email = "Tonita@bataillonMail.com",
+                            FirstName = "Tonita",
                             LastName = "Nuugaatrapaluk",
                             Level = 0,
-                            NickName = "JamalAlias",
+                            NickName = "TonitaAlias",
                             PhoneNumber = "766-342-1832"
                         },
                         new
                         {
                             Id = 28,
-                            Email = "Emely@bataillonMail.com",
-                            FirstName = "Arielle",
+                            Email = "Dina@bataillonMail.com",
+                            FirstName = "Dina",
                             LastName = "Norrviken",
                             Level = 0,
-                            NickName = "EmelyAlias",
+                            NickName = "DinaAlias",
                             PhoneNumber = "313-571-4445"
                         },
                         new
                         {
                             Id = 29,
-                            Email = "Arielle@bataillonMail.com",
-                            FirstName = "Steven",
+                            Email = "Conrad@bataillonMail.com",
+                            FirstName = "Conrad",
                             LastName = "Eqalunavik",
                             Level = 0,
-                            NickName = "ArielleAlias",
+                            NickName = "ConradAlias",
                             PhoneNumber = "831-638-8858"
                         },
                         new
                         {
                             Id = 30,
-                            Email = "Steven@bataillonMail.com",
-                            FirstName = "Roma",
+                            Email = "Adell@bataillonMail.com",
+                            FirstName = "Adell",
                             LastName = "Ulhus",
                             Level = 0,
-                            NickName = "StevenAlias",
+                            NickName = "AdellAlias",
                             PhoneNumber = "456-877-3463"
                         },
                         new
                         {
                             Id = 31,
-                            Email = "Roma@bataillonMail.com",
-                            FirstName = "Simonne",
+                            Email = "Pierre@bataillonMail.com",
+                            FirstName = "Pierre",
                             LastName = "Apatcruz",
                             Level = 0,
-                            NickName = "RomaAlias",
+                            NickName = "PierreAlias",
                             PhoneNumber = "884-226-7876"
                         },
                         new
                         {
                             Id = 32,
-                            Email = "Simonne@bataillonMail.com",
-                            FirstName = "Jeanetta",
+                            Email = "Bianca@bataillonMail.com",
+                            FirstName = "Bianca",
                             LastName = "Mõisali",
                             Level = 0,
-                            NickName = "SimonneAlias",
+                            NickName = "BiancaAlias",
                             PhoneNumber = "422-465-2481"
                         },
                         new
                         {
                             Id = 33,
-                            Email = "Jeanetta@bataillonMail.com",
-                            FirstName = "Angelina",
+                            Email = "Barbie@bataillonMail.com",
+                            FirstName = "Barbie",
                             LastName = "Mensmere",
                             Level = 0,
-                            NickName = "JeanettaAlias",
+                            NickName = "BarbieAlias",
                             PhoneNumber = "857-514-6814"
                         },
                         new
                         {
                             Id = 34,
-                            Email = "Angelina@bataillonMail.com",
-                            FirstName = "Magen",
+                            Email = "Leida@bataillonMail.com",
+                            FirstName = "Leida",
                             LastName = "Nittinen",
                             Level = 0,
-                            NickName = "AngelinaAlias",
+                            NickName = "LeidaAlias",
                             PhoneNumber = "475-753-2427"
                         },
                         new
                         {
                             Id = 35,
-                            Email = "Magen@bataillonMail.com",
-                            FirstName = "Jane",
+                            Email = "Rosetta@bataillonMail.com",
+                            FirstName = "Rosetta",
                             LastName = "Albro",
                             Level = 0,
-                            NickName = "MagenAlias",
+                            NickName = "RosettaAlias",
                             PhoneNumber = "112-112-5132"
                         },
                         new
                         {
                             Id = 36,
-                            Email = "Jane@bataillonMail.com",
-                            FirstName = "Tonita",
+                            Email = "Krissy@bataillonMail.com",
+                            FirstName = "Krissy",
                             LastName = "Hókrókur",
                             Level = 0,
-                            NickName = "JaneAlias",
+                            NickName = "KrissyAlias",
                             PhoneNumber = "548-241-1545"
                         },
                         new
                         {
                             Id = 37,
-                            Email = "Tonita@bataillonMail.com",
-                            FirstName = "Dina",
+                            Email = "Marlon@bataillonMail.com",
+                            FirstName = "Marlon",
                             LastName = "Loktu",
                             Level = 0,
-                            NickName = "TonitaAlias",
+                            NickName = "MarlonAlias",
                             PhoneNumber = "166-488-4158"
                         },
                         new
                         {
                             Id = 38,
-                            Email = "Dina@bataillonMail.com",
-                            FirstName = "Conrad",
+                            Email = "Palmira@bataillonMail.com",
+                            FirstName = "Palmira",
                             LastName = "Ketne",
                             Level = 0,
-                            NickName = "DinaAlias",
+                            NickName = "PalmiraAlias",
                             PhoneNumber = "583-637-8563"
                         },
                         new
                         {
                             Id = 39,
-                            Email = "Conrad@bataillonMail.com",
-                            FirstName = "Adell",
+                            Email = "Cathryn@bataillonMail.com",
+                            FirstName = "Cathryn",
                             LastName = "Siukoski",
                             Level = 0,
-                            NickName = "ConradAlias",
+                            NickName = "CathrynAlias",
                             PhoneNumber = "131-876-4176"
                         },
                         new
                         {
                             Id = 40,
-                            Email = "Adell@bataillonMail.com",
-                            FirstName = "Pierre",
+                            Email = "Eugenio@bataillonMail.com",
+                            FirstName = "Eugenio",
                             LastName = "Kedainkai",
                             Level = 0,
-                            NickName = "AdellAlias",
+                            NickName = "EugenioAlias",
                             PhoneNumber = "556-135-7581"
                         },
                         new
                         {
                             Id = 41,
-                            Email = "Pierre@bataillonMail.com",
-                            FirstName = "Bianca",
+                            Email = "Troy@bataillonMail.com",
+                            FirstName = "Troy",
                             LastName = "Akssandur",
                             Level = 0,
-                            NickName = "PierreAlias",
+                            NickName = "TroyAlias",
                             PhoneNumber = "274-364-3114"
                         },
                         new
                         {
                             Id = 42,
-                            Email = "Bianca@bataillonMail.com",
-                            FirstName = "Barbie",
+                            Email = "Tad@bataillonMail.com",
+                            FirstName = "Tad",
                             LastName = "Brønnøyden",
                             Level = 0,
-                            NickName = "BiancaAlias",
+                            NickName = "TadAlias",
                             PhoneNumber = "622-523-6527"
                         },
                         new
                         {
                             Id = 43,
-                            Email = "Barbie@bataillonMail.com",
-                            FirstName = "Leida",
+                            Email = "Vi@bataillonMail.com",
+                            FirstName = "Vi",
                             LastName = "Jaunli",
                             Level = 0,
-                            NickName = "BarbieAlias",
+                            NickName = "ViAlias",
                             PhoneNumber = "247-652-2132"
                         },
                         new
                         {
                             Id = 44,
-                            Email = "Leida@bataillonMail.com",
-                            FirstName = "Rosetta",
+                            Email = "Roma@bataillonMail.com",
+                            FirstName = "Roma",
                             LastName = "Kungstuna",
                             Level = 0,
-                            NickName = "LeidaAlias",
+                            NickName = "RomaAlias",
                             PhoneNumber = "665-811-5544"
                         },
                         new
                         {
                             Id = 45,
-                            Email = "Rosetta@bataillonMail.com",
-                            FirstName = "Krissy",
+                            Email = "Alejandro@bataillonMail.com",
+                            FirstName = "Alejandro",
                             LastName = "Jonkruojis",
                             Level = 0,
-                            NickName = "RosettaAlias",
+                            NickName = "AlejandroAlias",
                             PhoneNumber = "212-258-1157"
                         },
                         new
                         {
                             Id = 46,
-                            Email = "Krissy@bataillonMail.com",
-                            FirstName = "Marlon",
+                            Email = "Liliana@bataillonMail.com",
+                            FirstName = "Liliana",
                             LastName = "Clarehurst",
                             Level = 0,
-                            NickName = "KrissyAlias",
+                            NickName = "LilianaAlias",
                             PhoneNumber = "738-487-5562"
                         },
                         new
                         {
                             Id = 47,
-                            Email = "Marlon@bataillonMail.com",
-                            FirstName = "Palmira",
+                            Email = "Marcie@bataillonMail.com",
+                            FirstName = "Marcie",
                             LastName = "Steinstrand",
                             Level = 0,
-                            NickName = "MarlonAlias",
+                            NickName = "MarcieAlias",
                             PhoneNumber = "355-546-8175"
                         },
                         new
                         {
                             Id = 48,
-                            Email = "Palmira@bataillonMail.com",
-                            FirstName = "Cathryn",
+                            Email = "Mariella@bataillonMail.com",
+                            FirstName = "Mariella",
                             LastName = "Flatwood",
                             Level = 0,
-                            NickName = "PalmiraAlias",
+                            NickName = "MariellaAlias",
                             PhoneNumber = "783-785-4588"
                         },
                         new
                         {
                             Id = 49,
-                            Email = "Cathryn@bataillonMail.com",
-                            FirstName = "Eugenio",
+                            Email = "Jane@bataillonMail.com",
+                            FirstName = "Jane",
                             LastName = "Breksos",
                             Level = 0,
-                            NickName = "CathrynAlias",
+                            NickName = "JaneAlias",
                             PhoneNumber = "321-134-7113"
                         },
                         new
                         {
                             Id = 50,
-                            Email = "Eugenio@bataillonMail.com",
-                            FirstName = "Troy",
+                            Email = "Marcella@bataillonMail.com",
+                            FirstName = "Marcella",
                             LastName = "Uummanqaq",
                             Level = 0,
-                            NickName = "EugenioAlias",
+                            NickName = "MarcellaAlias",
                             PhoneNumber = "746-273-3526"
                         },
                         new
                         {
                             Id = 51,
-                            Email = "Troy@bataillonMail.com",
-                            FirstName = "Tad",
+                            Email = "Sherlene@bataillonMail.com",
+                            FirstName = "Sherlene",
                             LastName = "Norrviken",
                             Level = 0,
-                            NickName = "TroyAlias",
+                            NickName = "SherleneAlias",
                             PhoneNumber = "374-422-7131"
                         },
                         new
                         {
                             Id = 52,
-                            Email = "Tad@bataillonMail.com",
-                            FirstName = "Vi",
+                            Email = "Antonetta@bataillonMail.com",
+                            FirstName = "Antonetta",
                             LastName = "Ixtatla",
                             Level = 0,
-                            NickName = "TadAlias",
+                            NickName = "AntonettaAlias",
                             PhoneNumber = "811-661-2544"
                         },
                         new
                         {
                             Id = 53,
-                            Email = "Vi@bataillonMail.com",
-                            FirstName = "Roma",
+                            Email = "Tyson@bataillonMail.com",
+                            FirstName = "Tyson",
                             LastName = "Ulhus",
                             Level = 0,
-                            NickName = "ViAlias",
+                            NickName = "TysonAlias",
                             PhoneNumber = "437-728-6157"
                         },
                         new
                         {
                             Id = 54,
-                            Email = "Roma@bataillonMail.com",
-                            FirstName = "Alejandro",
+                            Email = "Pierre@bataillonMail.com",
+                            FirstName = "Pierre",
                             LastName = "Guasabaro",
                             Level = 0,
-                            NickName = "RomaAlias",
+                            NickName = "PierreAlias",
                             PhoneNumber = "865-156-1562"
                         },
                         new
                         {
                             Id = 55,
-                            Email = "Alejandro@bataillonMail.com",
-                            FirstName = "Liliana",
+                            Email = "Sheridan@bataillonMail.com",
+                            FirstName = "Sheridan",
                             LastName = "Mõisali",
                             Level = 0,
-                            NickName = "AlejandroAlias",
+                            NickName = "SheridanAlias",
                             PhoneNumber = "482-315-5175"
                         },
                         new
                         {
                             Id = 56,
-                            Email = "Liliana@bataillonMail.com",
-                            FirstName = "Marcie",
+                            Email = "Debi@bataillonMail.com",
+                            FirstName = "Debi",
                             LastName = "Boswood",
                             Level = 0,
-                            NickName = "LilianaAlias",
+                            NickName = "DebiAlias",
                             PhoneNumber = "828-544-8588"
                         },
                         new
                         {
                             Id = 57,
-                            Email = "Marcie@bataillonMail.com",
-                            FirstName = "Mariella",
+                            Email = "Johana@bataillonMail.com",
+                            FirstName = "Johana",
                             LastName = "Nittinen",
                             Level = 0,
-                            NickName = "MarcieAlias",
+                            NickName = "JohanaAlias",
                             PhoneNumber = "555-683-4113"
                         },
                         new
                         {
                             Id = 58,
-                            Email = "Mariella@bataillonMail.com",
-                            FirstName = "Jane",
+                            Email = "Adrian@bataillonMail.com",
+                            FirstName = "Adrian",
                             LastName = "Dragstrup",
                             Level = 0,
-                            NickName = "MariellaAlias",
+                            NickName = "AdrianAlias",
                             PhoneNumber = "173-842-8526"
                         },
                         new
                         {
                             Id = 59,
-                            Email = "Jane@bataillonMail.com",
-                            FirstName = "Marcella",
+                            Email = "Krissy@bataillonMail.com",
+                            FirstName = "Krissy",
                             LastName = "Ólafsholt",
                             Level = 0,
-                            NickName = "JaneAlias",
+                            NickName = "KrissyAlias",
                             PhoneNumber = "521-271-3131"
                         },
                         new
                         {
                             Id = 60,
-                            Email = "Marcella@bataillonMail.com",
-                            FirstName = "Sherlene",
+                            Email = "Pat@bataillonMail.com",
+                            FirstName = "Pat",
                             LastName = "Kalvee",
                             Level = 0,
-                            NickName = "MarcellaAlias",
+                            NickName = "PatAlias",
                             PhoneNumber = "146-338-7544"
                         },
                         new
                         {
                             Id = 61,
-                            Email = "Sherlene@bataillonMail.com",
-                            FirstName = "Antonetta",
+                            Email = "Jamal@bataillonMail.com",
+                            FirstName = "Jamal",
                             LastName = "Salkile",
                             Level = 0,
-                            NickName = "SherleneAlias",
+                            NickName = "JamalAlias",
                             PhoneNumber = "564-567-2157"
                         },
                         new
                         {
                             Id = 62,
-                            Email = "Antonetta@bataillonMail.com",
-                            FirstName = "Tyson",
+                            Email = "Ralph@bataillonMail.com",
+                            FirstName = "Ralph",
                             LastName = "Rovanola",
                             Level = 0,
-                            NickName = "AntonettaAlias",
+                            NickName = "RalphAlias",
                             PhoneNumber = "111-726-6562"
                         },
                         new
                         {
                             Id = 63,
-                            Email = "Tyson@bataillonMail.com",
-                            FirstName = "Pierre",
+                            Email = "Arielle@bataillonMail.com",
+                            FirstName = "Arielle",
                             LastName = "Balniai",
                             Level = 0,
-                            NickName = "TysonAlias",
+                            NickName = "ArielleAlias",
                             PhoneNumber = "637-165-2175"
                         },
                         new
                         {
                             Id = 64,
-                            Email = "Pierre@bataillonMail.com",
-                            FirstName = "Sheridan",
+                            Email = "Troy@bataillonMail.com",
+                            FirstName = "Troy",
                             LastName = "Akssandur",
                             Level = 0,
-                            NickName = "PierreAlias",
+                            NickName = "TroyAlias",
                             PhoneNumber = "255-214-5587"
                         },
                         new
                         {
                             Id = 65,
-                            Email = "Sheridan@bataillonMail.com",
-                            FirstName = "Debi",
+                            Email = "Marcell@bataillonMail.com",
+                            FirstName = "Marcell",
                             LastName = "Hammervåg",
                             Level = 0,
-                            NickName = "SheridanAlias",
+                            NickName = "MarcellAlias",
                             PhoneNumber = "682-453-1112"
                         },
                         new
                         {
                             Id = 66,
-                            Email = "Debi@bataillonMail.com",
-                            FirstName = "Johana",
+                            Email = "Simonne@bataillonMail.com",
+                            FirstName = "Simonne",
                             LastName = "Jaunli",
                             Level = 0,
-                            NickName = "DebiAlias",
+                            NickName = "SimonneAlias",
                             PhoneNumber = "228-612-4525"
                         },
                         new
                         {
                             Id = 67,
-                            Email = "Johana@bataillonMail.com",
-                            FirstName = "Adrian",
+                            Email = "Sherise@bataillonMail.com",
+                            FirstName = "Sherise",
                             LastName = "Enbo",
                             Level = 0,
-                            NickName = "JohanaAlias",
+                            NickName = "SheriseAlias",
                             PhoneNumber = "645-741-8138"
                         },
                         new
                         {
                             Id = 68,
-                            Email = "Adrian@bataillonMail.com",
-                            FirstName = "Krissy",
+                            Email = "Angelina@bataillonMail.com",
+                            FirstName = "Angelina",
                             LastName = "Jonkruojis",
                             Level = 0,
-                            NickName = "AdrianAlias",
+                            NickName = "AngelinaAlias",
                             PhoneNumber = "373-188-3543"
                         },
                         new
                         {
                             Id = 69,
-                            Email = "Krissy@bataillonMail.com",
-                            FirstName = "Pat",
+                            Email = "Liliana@bataillonMail.com",
+                            FirstName = "Liliana",
                             LastName = "Reidcoln",
                             Level = 0,
-                            NickName = "KrissyAlias",
+                            NickName = "LilianaAlias",
                             PhoneNumber = "718-337-7156"
                         },
                         new
                         {
                             Id = 70,
-                            Email = "Pat@bataillonMail.com",
-                            FirstName = "Jamal",
+                            Email = "Sheryl@bataillonMail.com",
+                            FirstName = "Sheryl",
                             LastName = "Steinstrand",
                             Level = 0,
-                            NickName = "PatAlias",
+                            NickName = "SherylAlias",
                             PhoneNumber = "336-476-3561"
                         },
                         new
                         {
                             Id = 71,
-                            Email = "Jamal@bataillonMail.com",
-                            FirstName = "Ralph",
+                            Email = "Tonita@bataillonMail.com",
+                            FirstName = "Tonita",
                             LastName = "Nuugaatrapaluk",
                             Level = 0,
-                            NickName = "JamalAlias",
+                            NickName = "TonitaAlias",
                             PhoneNumber = "764-635-6174"
                         },
                         new
                         {
                             Id = 72,
-                            Email = "Ralph@bataillonMail.com",
-                            FirstName = "Arielle",
+                            Email = "Berniece@bataillonMail.com",
+                            FirstName = "Berniece",
                             LastName = "Vadtälje",
                             Level = 0,
-                            NickName = "RalphAlias",
+                            NickName = "BernieceAlias",
                             PhoneNumber = "381-864-2587"
                         },
                         new
                         {
                             Id = 73,
-                            Email = "Arielle@bataillonMail.com",
-                            FirstName = "Troy",
+                            Email = "Conrad@bataillonMail.com",
+                            FirstName = "Conrad",
                             LastName = "Eqalunavik",
                             Level = 0,
-                            NickName = "ArielleAlias",
+                            NickName = "ConradAlias",
                             PhoneNumber = "727-223-5112"
                         },
                         new
                         {
                             Id = 74,
-                            Email = "Troy@bataillonMail.com",
-                            FirstName = "Marcell",
+                            Email = "Sherlene@bataillonMail.com",
+                            FirstName = "Sherlene",
                             LastName = "Lystrup",
                             Level = 0,
-                            NickName = "TroyAlias",
+                            NickName = "SherleneAlias",
                             PhoneNumber = "454-352-1525"
                         },
                         new
                         {
                             Id = 75,
-                            Email = "Marcell@bataillonMail.com",
-                            FirstName = "Simonne",
+                            Email = "Nicholas@bataillonMail.com",
+                            FirstName = "Nicholas",
                             LastName = "Apatcruz",
                             Level = 0,
-                            NickName = "MarcellAlias",
+                            NickName = "NicholasAlias",
                             PhoneNumber = "872-511-5138"
                         },
                         new
                         {
                             Id = 76,
-                            Email = "Simonne@bataillonMail.com",
-                            FirstName = "Sherise",
+                            Email = "Bianca@bataillonMail.com",
+                            FirstName = "Bianca",
                             LastName = "Haapsa",
                             Level = 0,
-                            NickName = "SimonneAlias",
+                            NickName = "BiancaAlias",
                             PhoneNumber = "418-758-8543"
                         },
                         new
                         {
                             Id = 77,
-                            Email = "Sherise@bataillonMail.com",
-                            FirstName = "Angelina",
+                            Email = "Derick@bataillonMail.com",
+                            FirstName = "Derick",
                             LastName = "Guasabaro",
                             Level = 0,
-                            NickName = "SheriseAlias",
+                            NickName = "DerickAlias",
                             PhoneNumber = "845-887-4156"
                         },
                         new
                         {
                             Id = 78,
-                            Email = "Angelina@bataillonMail.com",
-                            FirstName = "Liliana",
+                            Email = "Leida@bataillonMail.com",
+                            FirstName = "Leida",
                             LastName = "Kalatee",
                             Level = 0,
-                            NickName = "AngelinaAlias",
+                            NickName = "LeidaAlias",
                             PhoneNumber = "463-246-7561"
                         },
                         new
                         {
                             Id = 79,
-                            Email = "Liliana@bataillonMail.com",
-                            FirstName = "Sheryl",
+                            Email = "Debi@bataillonMail.com",
+                            FirstName = "Debi",
                             LastName = "Boswood",
                             Level = 0,
-                            NickName = "LilianaAlias",
+                            NickName = "DebiAlias",
                             PhoneNumber = "888-475-3174"
                         },
                         new
                         {
                             Id = 80,
-                            Email = "Sheryl@bataillonMail.com",
-                            FirstName = "Tonita",
+                            Email = "Ernestine@bataillonMail.com",
+                            FirstName = "Ernestine",
                             LastName = "Hókrókur",
                             Level = 0,
-                            NickName = "SherylAlias",
+                            NickName = "ErnestineAlias",
                             PhoneNumber = "536-634-7577"
                         },
                         new
                         {
                             Id = 81,
-                            Email = "Tonita@bataillonMail.com",
-                            FirstName = "Berniece",
+                            Email = "Marlon@bataillonMail.com",
+                            FirstName = "Marlon",
                             LastName = "Dragstrup",
                             Level = 0,
-                            NickName = "TonitaAlias",
+                            NickName = "MarlonAlias",
                             PhoneNumber = "154-773-2182"
                         },
                         new
                         {
                             Id = 82,
-                            Email = "Berniece@bataillonMail.com",
-                            FirstName = "Conrad",
+                            Email = "Eugenie@bataillonMail.com",
+                            FirstName = "Eugenie",
                             LastName = "Ketne",
                             Level = 0,
-                            NickName = "BernieceAlias",
+                            NickName = "EugenieAlias",
                             PhoneNumber = "581-122-6515"
                         },
                         new
                         {
                             Id = 83,
-                            Email = "Conrad@bataillonMail.com",
-                            FirstName = "Sherlene",
+                            Email = "Cathryn@bataillonMail.com",
+                            FirstName = "Cathryn",
                             LastName = "Kalvee",
                             Level = 0,
-                            NickName = "ConradAlias",
+                            NickName = "CathrynAlias",
                             PhoneNumber = "127-361-1128"
                         },
                         new
                         {
                             Id = 84,
-                            Email = "Sherlene@bataillonMail.com",
-                            FirstName = "Nicholas",
+                            Email = "Jamal@bataillonMail.com",
+                            FirstName = "Jamal",
                             LastName = "Kedainkai",
                             Level = 0,
-                            NickName = "SherleneAlias",
+                            NickName = "JamalAlias",
                             PhoneNumber = "544-428-5532"
                         },
                         new
                         {
                             Id = 85,
-                            Email = "Nicholas@bataillonMail.com",
-                            FirstName = "Bianca",
+                            Email = "Emely@bataillonMail.com",
+                            FirstName = "Emely",
                             LastName = "Rovanola",
                             Level = 0,
-                            NickName = "NicholasAlias",
+                            NickName = "EmelyAlias",
                             PhoneNumber = "272-657-8145"
                         },
                         new
                         {
                             Id = 86,
-                            Email = "Bianca@bataillonMail.com",
-                            FirstName = "Derick",
+                            Email = "Tad@bataillonMail.com",
+                            FirstName = "Tad",
                             LastName = "Brønnøyden",
                             Level = 0,
-                            NickName = "BiancaAlias",
+                            NickName = "TadAlias",
                             PhoneNumber = "618-816-4558"
                         },
                         new
                         {
                             Id = 87,
-                            Email = "Derick@bataillonMail.com",
-                            FirstName = "Leida",
+                            Email = "Steven@bataillonMail.com",
+                            FirstName = "Steven",
                             LastName = "Ísafholt",
                             Level = 0,
-                            NickName = "DerickAlias",
+                            NickName = "StevenAlias",
                             PhoneNumber = "235-245-8163"
                         },
                         new
                         {
                             Id = 88,
-                            Email = "Leida@bataillonMail.com",
-                            FirstName = "Debi",
+                            Email = "Roma@bataillonMail.com",
+                            FirstName = "Roma",
                             LastName = "Kungstuna",
                             Level = 0,
-                            NickName = "LeidaAlias",
+                            NickName = "RomaAlias",
                             PhoneNumber = "663-384-3576"
                         },
                         new
                         {
                             Id = 89,
-                            Email = "Debi@bataillonMail.com",
-                            FirstName = "Ernestine",
+                            Email = "Simonne@bataillonMail.com",
+                            FirstName = "Simonne",
                             LastName = "Kulli",
                             Level = 0,
-                            NickName = "DebiAlias",
+                            NickName = "SimonneAlias",
                             PhoneNumber = "288-543-7181"
                         },
                         new
                         {
                             Id = 90,
-                            Email = "Ernestine@bataillonMail.com",
-                            FirstName = "Marlon",
+                            Email = "Jeanetta@bataillonMail.com",
+                            FirstName = "Jeanetta",
                             LastName = "Clarehurst",
                             Level = 0,
-                            NickName = "ErnestineAlias",
+                            NickName = "JeanettaAlias",
                             PhoneNumber = "626-772-2514"
                         },
                         new
                         {
                             Id = 91,
-                            Email = "Marlon@bataillonMail.com",
-                            FirstName = "Eugenie",
+                            Email = "Marcie@bataillonMail.com",
+                            FirstName = "Marcie",
                             LastName = "Lazmerge",
                             Level = 0,
-                            NickName = "MarlonAlias",
+                            NickName = "MarcieAlias",
                             PhoneNumber = "354-831-6127"
                         },
                         new
                         {
                             Id = 92,
-                            Email = "Eugenie@bataillonMail.com",
-                            FirstName = "Cathryn",
+                            Email = "Magen@bataillonMail.com",
+                            FirstName = "Magen",
                             LastName = "Reidcoln",
                             Level = 0,
-                            NickName = "EugenieAlias",
+                            NickName = "MagenAlias",
                             PhoneNumber = "771-268-2532"
                         },
                         new
                         {
                             Id = 93,
-                            Email = "Cathryn@bataillonMail.com",
-                            FirstName = "Jamal",
+                            Email = "Jane@bataillonMail.com",
+                            FirstName = "Jane",
                             LastName = "Breksos",
                             Level = 0,
-                            NickName = "CathrynAlias",
+                            NickName = "JaneAlias",
                             PhoneNumber = "317-427-5145"
                         },
                         new
                         {
                             Id = 94,
-                            Email = "Jamal@bataillonMail.com",
-                            FirstName = "Emely",
+                            Email = "Tonita@bataillonMail.com",
+                            FirstName = "Tonita",
                             LastName = "Nuugaatrapaluk",
                             Level = 0,
-                            NickName = "JamalAlias",
+                            NickName = "TonitaAlias",
                             PhoneNumber = "744-566-1558"
                         },
                         new
                         {
                             Id = 95,
-                            Email = "Emely@bataillonMail.com",
-                            FirstName = "Tad",
+                            Email = "Dina@bataillonMail.com",
+                            FirstName = "Dina",
                             LastName = "Norrviken",
                             Level = 0,
-                            NickName = "EmelyAlias",
+                            NickName = "DinaAlias",
                             PhoneNumber = "362-715-4163"
                         },
                         new
                         {
                             Id = 96,
-                            Email = "Tad@bataillonMail.com",
-                            FirstName = "Steven",
+                            Email = "Antonetta@bataillonMail.com",
+                            FirstName = "Antonetta",
                             LastName = "Eqalunavik",
                             Level = 0,
-                            NickName = "TadAlias",
+                            NickName = "AntonettaAlias",
                             PhoneNumber = "887-154-8576"
                         },
                         new
                         {
                             Id = 97,
-                            Email = "Steven@bataillonMail.com",
-                            FirstName = "Roma",
+                            Email = "Adell@bataillonMail.com",
+                            FirstName = "Adell",
                             LastName = "Ulhus",
                             Level = 0,
-                            NickName = "StevenAlias",
+                            NickName = "AdellAlias",
                             PhoneNumber = "435-313-3181"
                         },
                         new
                         {
                             Id = 98,
-                            Email = "Roma@bataillonMail.com",
-                            FirstName = "Simonne",
+                            Email = "Pierre@bataillonMail.com",
+                            FirstName = "Pierre",
                             LastName = "Apatcruz",
                             Level = 0,
-                            NickName = "RomaAlias",
+                            NickName = "PierreAlias",
                             PhoneNumber = "853-442-7514"
                         },
                         new
                         {
                             Id = 99,
-                            Email = "Simonne@bataillonMail.com",
-                            FirstName = "Jeanetta",
+                            Email = "Bianca@bataillonMail.com",
+                            FirstName = "Bianca",
                             LastName = "Mõisali",
                             Level = 0,
-                            NickName = "SimonneAlias",
+                            NickName = "BiancaAlias",
                             PhoneNumber = "478-681-3127"
                         });
                 });
@@ -1093,6 +1116,68 @@ namespace LeBataillon.Database.Migrations
                     b.HasIndex("CaptainId");
 
                     b.ToTable("Teams");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CaptainId = 1,
+                            TeamName = "Équipe de Adrian"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CaptainId = 2,
+                            TeamName = "Équipe de Krissy"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CaptainId = 3,
+                            TeamName = "Équipe de Pat"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CaptainId = 4,
+                            TeamName = "Équipe de Palmira"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CaptainId = 5,
+                            TeamName = "Équipe de Ralph"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CaptainId = 6,
+                            TeamName = "Équipe de Arielle"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CaptainId = 7,
+                            TeamName = "Équipe de Troy"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CaptainId = 8,
+                            TeamName = "Équipe de Marcell"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            CaptainId = 9,
+                            TeamName = "Équipe de Vi"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CaptainId = 10,
+                            TeamName = "Équipe de Sherise"
+                        });
                 });
 
             modelBuilder.Entity("LeBataillon.Database.Models.Game", b =>
