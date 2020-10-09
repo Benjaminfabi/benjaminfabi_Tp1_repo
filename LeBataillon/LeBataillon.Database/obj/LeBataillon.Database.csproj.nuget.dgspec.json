@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {}
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {}
   },
   "projects": {
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
+        "projectUniqueName": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
         "projectName": "LeBataillon.Database",
-        "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
+        "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\obj\\",
+        "outputPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",

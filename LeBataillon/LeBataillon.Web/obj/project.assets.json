@@ -8859,11 +8859,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
+      "projectUniqueName": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
       "projectName": "LeBataillon.Web",
-      "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
+      "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
       "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-      "outputPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\obj\\",
+      "outputPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8879,8 +8879,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
-              "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
+            "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
+              "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
             }
           }
         }

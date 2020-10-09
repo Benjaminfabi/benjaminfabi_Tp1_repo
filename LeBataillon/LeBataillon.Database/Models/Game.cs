@@ -31,5 +31,7 @@ namespace LeBataillon.Database.Models
         public virtual Team TeamDefendant { get; set; }
         public int? TeamAttackerId { get; set; }
         public virtual Team TeamAttacker { get; set; }
+
+        public GameStatus gameStatus { get; set; }
     }
 }

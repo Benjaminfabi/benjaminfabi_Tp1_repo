@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj": {}
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj": {}
   },
   "projects": {
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
+        "projectUniqueName": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
         "projectName": "LeBataillon.Database",
-        "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
+        "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\obj\\",
+        "outputPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,14 +86,14 @@
         }
       }
     },
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj": {
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj",
+        "projectUniqueName": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj",
         "projectName": "LeBataillon.Test",
-        "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj",
+        "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\LeBataillon.Test.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\obj\\",
+        "outputPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +109,11 @@
         "frameworks": {
           "net5.0": {
             "projectReferences": {
-              "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
-                "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
+              "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
+                "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
               },
-              "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj": {
-                "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj"
+              "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj": {
+                "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj"
               }
             }
           }
@@ -134,6 +134,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -167,14 +171,14 @@
         }
       }
     },
-    "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj": {
+    "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
+        "projectUniqueName": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
         "projectName": "LeBataillon.Web",
-        "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
+        "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\LeBataillon.Web.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\obj\\",
+        "outputPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,8 +194,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
-                "projectPath": "c:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
+              "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj": {
+                "projectPath": "C:\\3w6\\benjaminfabi_Tp1_repo\\LeBataillon\\LeBataillon.Database\\LeBataillon.Database.csproj"
               }
             }
           }

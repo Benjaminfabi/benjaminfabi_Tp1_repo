@@ -37,13 +37,15 @@ namespace LeBataillon.Database.Models
         public string NickName { get; set; }
         [EmailAddress(ErrorMessage = "The address is invalid. Try another.")]
         [Required]
-
+        [MaxLength(50, ErrorMessage = "50 caractères maximum")]
         public string Email { get; set; }
         [Phone(ErrorMessage = "Please use this format : ###:###:####")]
         public string PhoneNumber { get; set; }
         [Required(ErrorMessage = "A first name is required.")]
+        [MaxLength(50, ErrorMessage = "50 caractères maximum")]
         public string FirstName { get; set; }
         [Required(ErrorMessage = "A last name is required.")]
+        [MaxLength(50, ErrorMessage = "50 caractères maximum")]
         public string LastName { get; set; }
 
         public PlayerLevel Level { get; set; }

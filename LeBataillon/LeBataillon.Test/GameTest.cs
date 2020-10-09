@@ -3,10 +3,10 @@ using Xunit;
 
 namespace LeBataillon.Test
 {
-    public class UnitTest1
+    public class GameTest
     {
         [Fact]
-        public void Test1()
+        public void TestGame1()
         {
 
         }

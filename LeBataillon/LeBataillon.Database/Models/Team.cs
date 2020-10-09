@@ -32,6 +32,7 @@ namespace LeBataillon.Database.Models
         [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "A team name is required.")]
+        [MaxLength(25, ErrorMessage = "Le nom de l'équipe ne peut pas dépasser 25 caractères")]
         public string TeamName { get; set; }
 
         public int CaptainId { get; set; }
@@ -41,6 +42,8 @@ namespace LeBataillon.Database.Models
         public virtual Player Captain { get; set; }
 
         [InverseProperty("Team")]
+
+
         public virtual List<Player> Players { get; set; }
     }
 }
