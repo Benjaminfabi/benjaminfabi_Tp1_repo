@@ -14392,6 +14392,21 @@
   "RootNamespace": "LeBataillon.Web",
   "Documents": [
     {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Game\\Delete.cshtml",
+      "TargetPath": "Views\\Game\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Team\\Index.cshtml",
+      "TargetPath": "Views\\Team\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Team\\Details.cshtml",
+      "TargetPath": "Views\\Team\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14407,8 +14422,43 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Player\\Details.cshtml",
+      "TargetPath": "Views\\Player\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Game\\Index.cshtml",
+      "TargetPath": "Views\\Game\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Game\\Details.cshtml",
+      "TargetPath": "Views\\Game\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Team\\Edit.cshtml",
+      "TargetPath": "Views\\Team\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Game\\Create.cshtml",
+      "TargetPath": "Views\\Game\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Game\\Edit.cshtml",
+      "TargetPath": "Views\\Game\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Player\\Delete.cshtml",
+      "TargetPath": "Views\\Player\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14422,13 +14472,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Player\\Index.cshtml",
+      "TargetPath": "Views\\Player\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Player\\Create.cshtml",
+      "TargetPath": "Views\\Player\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Team\\Create.cshtml",
+      "TargetPath": "Views\\Team\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Shared\\_topNav.cshtml",
       "TargetPath": "Views\\Shared\\_topNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Player\\Edit.cshtml",
+      "TargetPath": "Views\\Player\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\3w6\\benjaminfabi_Tp1_repo\\TP1_Depart\\LeBataillon.Web\\Views\\Team\\Delete.cshtml",
+      "TargetPath": "Views\\Team\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

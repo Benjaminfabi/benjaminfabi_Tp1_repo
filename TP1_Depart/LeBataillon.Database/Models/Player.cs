@@ -7,10 +7,7 @@ namespace LeBataillon.Database.Models
     {
         public Player()
         {
-
-
         }
-
         public Player(int Id, string NickName, string Email, string PhoneNumber, string FirstName, string LastName, PlayerLevel level)
         {
             this.Id = Id;
@@ -20,9 +17,7 @@ namespace LeBataillon.Database.Models
             this.FirstName = FirstName;
             this.LastName = LastName;
             this.Level = Level;
-
         }
-
         public void EditFrom(Player p)
         {
             this.Id = p.Id;
@@ -33,8 +28,6 @@ namespace LeBataillon.Database.Models
             this.LastName = p.LastName;
             this.Level = p.Level;
             this.TeamId = p.TeamId;
-
-
         }
 
         [Key]
@@ -54,7 +47,9 @@ namespace LeBataillon.Database.Models
         public string LastName { get; set; }
 
         public PlayerLevel Level { get; set; }
-        public int TeamId { get; set; }
+
+        public int? TeamId { get; set; }
+
         public virtual Team Team { get; set; }
 
 

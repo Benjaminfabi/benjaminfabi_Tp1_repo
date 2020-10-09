@@ -13,11 +13,11 @@ namespace LeBataillon.Database.Models
 
         }
 
-        public Team(int Id, string TeamName, Player Captain)
+        public Team(int Id, string TeamName, int Captain)
         {
             this.Id = Id;
             this.TeamName = TeamName;
-            this.Captain = Captain;
+            this.CaptainId = Captain;
 
         }
 
@@ -25,18 +25,22 @@ namespace LeBataillon.Database.Models
         {
             this.Id = t.Id;
             this.TeamName = t.TeamName;
-            this.Captain = t.Captain;
+            this.CaptainId = t.CaptainId;
 
         }
-        [Key]
 
+        [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "A team name is required.")]
         public string TeamName { get; set; }
 
-        [Required(ErrorMessage = "A team captain is required.")]
-        public Player Captain { get; set; }
+        public int CaptainId { get; set; }
 
-        public virtual List<Player> ListPlayers { get; set; }
+        [Required(ErrorMessage = "A team captain is required.")]
+        [ForeignKey("CaptainId")]
+        public virtual Player Captain { get; set; }
+
+        [InverseProperty("Team")]
+        public virtual List<Player> Players { get; set; }
     }
 }

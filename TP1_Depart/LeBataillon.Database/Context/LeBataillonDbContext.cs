@@ -9,12 +9,14 @@ namespace LeBataillon.Database.Context
 {
     public class LeBataillonDbContext : DbContext
     {
+        DbSet<Player> Players { get; set; }
+        DbSet<Team> Teams { get; set; }
+        DbSet<Game> Games { get; set; }
         public LeBataillonDbContext(DbContextOptions<LeBataillonDbContext> options) : base(options)
         {
 
         }
-        DbSet<Player> Players { get; set; }
-        DbSet<Team> Teams { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLazyLoadingProxies();
